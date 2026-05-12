@@ -2,8 +2,7 @@
 
 **QORWAY Decision Intelligence Infrastructure**
 
-> QORWAY does not only secure data.  
-> It secures decisions, reasoning, execution, and feedback.
+> QORWAY does not only secure data. It secures decisions, reasoning, execution, and feedback.
 
 ---
 
@@ -32,7 +31,7 @@ Traditional systems secure:
 
 ```text
 data → application → user access
-````
+```
 
 QORWAY secures:
 
@@ -42,15 +41,15 @@ data → reasoning → decision → validation → execution → feedback
 
 This means QORWAY must protect:
 
-* enterprise data
-* Knowledge Graph structures
-* causal reasoning paths
-* Domain Pack configurations
-* PolicyCore validation results
-* PulseFlow execution events
-* GreenCore routing decisions
-* tenant feedback loops
-* audit evidence
+- enterprise data
+- Knowledge Graph structures
+- causal reasoning paths
+- Domain Pack configurations
+- PolicyCore validation results
+- PulseFlow execution events
+- GreenCore routing decisions
+- tenant feedback loops
+- audit evidence
 
 ---
 
@@ -58,130 +57,63 @@ This means QORWAY must protect:
 
 QORWAY follows seven core security principles.
 
----
-
 ### 3.1 Sovereignty by Design
 
 QORWAY is designed for sovereign deployment.
 
-Security must support:
-
-* EU-based infrastructure
-* data residency requirements
-* restricted cross-border processing
-* tenant-controlled data boundaries
-* jurisdiction-aware execution
+Security must support EU-based infrastructure, data residency requirements, restricted cross-border processing, tenant-controlled data boundaries, and jurisdiction-aware execution.
 
 Sensitive workloads must remain within approved execution boundaries.
-
----
 
 ### 3.2 Zero Trust Architecture
 
 No actor, service, agent, request, or event is trusted by default.
 
-Every operation must be:
-
-* authenticated
-* authorized
-* tenant-scoped
-* logged
-* validated against policy where required
+Every operation must be authenticated, authorized, tenant-scoped, logged, and validated against policy where required.
 
 Zero Trust applies across the full runtime.
-
----
 
 ### 3.3 Tenant Isolation
 
 Every tenant must operate inside an isolated decision environment.
 
-Isolation applies to:
-
-* data
-* Knowledge Graphs
-* Domain Pack instantiations
-* PolicyCore constraints
-* PulseFlow events
-* GreenCore execution policies
-* agent execution context
-* audit logs
-* feedback signals
+Isolation applies to data, Knowledge Graphs, Domain Pack instantiations, PolicyCore constraints, PulseFlow events, GreenCore execution policies, agent execution context, audit logs, and feedback signals.
 
 Core rule:
 
 > One tenant’s graph, events, or feedback must never become another tenant’s intelligence.
 
----
-
 ### 3.4 Constraint-First Execution
 
 No decision can move to execution unless PolicyCore validates it.
 
-Execution is invalid if it:
-
-* bypasses PolicyCore
-* lacks tenant scope
-* lacks causal lineage
-* lacks audit metadata
-* violates tenant policy
-* misses required human approval
+Execution is invalid if it bypasses PolicyCore, lacks tenant scope, lacks causal lineage, lacks audit metadata, violates tenant policy, or misses required human approval.
 
 Core rule:
 
 > No PolicyCore validation → no PulseFlow execution.
 
----
-
 ### 3.5 Traceability by Default
 
 Every decision and execution path must be traceable.
 
-A complete trace should include:
-
-* tenant ID
-* decision ID
-* causal chain
-* Domain Pack version
-* PolicyCore result
-* PulseFlow execution event
-* GreenCore routing decision
-* execution outcome
-* feedback reference
+A complete trace should include tenant identity, decision identity, causal lineage, Domain Pack context, PolicyCore result, PulseFlow execution reference, GreenCore routing reference, execution outcome, and feedback reference.
 
 A decision that cannot be traced is invalid.
-
----
 
 ### 3.6 Least Privilege
 
 Every user, service, agent, and system component should have only the permissions required to perform its defined role.
 
-Least privilege applies to:
-
-* users
-* AI agents
-* services
-* API access
-* event consumers
-* graph queries
-* execution workflows
+Least privilege applies to users, AI agents, services, API access, event consumers, graph queries, and execution workflows.
 
 No component should have global access by default.
-
----
 
 ### 3.7 Secure Feedback Loops
 
 Feedback must never create uncontrolled learning or data leakage.
 
-Feedback must be:
-
-* tenant-scoped
-* governed
-* auditable
-* anonymized before any universal reuse
-* blocked from cross-tenant exposure
+Feedback must be tenant-scoped, governed, auditable, anonymized before any universal reuse, and blocked from cross-tenant exposure.
 
 Core rule:
 
@@ -193,13 +125,13 @@ Core rule:
 
 QORWAY is designed to support alignment with:
 
-* GDPR
-* EU AI Act
-* ISO 27001 principles
-* SOC 2 Type II principles
-* enterprise audit requirements
-* public-sector transparency requirements
-* CSRD / ESG traceability where applicable
+- GDPR
+- EU AI Act
+- ISO 27001 principles
+- SOC 2 Type II principles
+- enterprise audit requirements
+- public-sector transparency requirements
+- CSRD / ESG traceability where applicable
 
 This document is not legal advice.
 
@@ -211,15 +143,15 @@ It defines the system-level compliance posture of QORWAY.
 
 QORWAY supports GDPR-aligned architecture through:
 
-* tenant isolation
-* data minimization
-* access control
-* encryption
-* audit logging
-* restricted processing
-* data residency controls
-* privacy-aware routing
-* clear separation between private and reusable knowledge
+- tenant isolation
+- data minimization
+- access control
+- encryption
+- audit logging
+- restricted processing
+- data residency controls
+- privacy-aware routing
+- clear separation between private and reusable knowledge
 
 Sensitive personal data must not be exposed across tenants or to unauthorized services.
 
@@ -231,14 +163,14 @@ QORWAY is designed for high-accountability AI environments.
 
 The system supports:
 
-* explainability
-* human oversight
-* risk management
-* technical documentation
-* logging
-* transparency
-* data governance
-* accountability
+- explainability
+- human oversight
+- risk management
+- technical documentation
+- logging
+- transparency
+- data governance
+- accountability
 
 QORWAY does not rely on post-hoc explanation.
 
@@ -256,13 +188,7 @@ edge
 EU cloud
 ```
 
-Execution routing is governed by:
-
-* PolicyCore constraints
-* GreenCore execution policies
-* tenant requirements
-* data sensitivity
-* jurisdictional constraints
+Execution routing is governed by PolicyCore constraints, GreenCore execution policies, tenant requirements, data sensitivity, and jurisdictional constraints.
 
 Sensitive data must remain inside approved infrastructure boundaries.
 
@@ -281,59 +207,29 @@ SENSITIVE
 REGULATED
 ```
 
----
-
-### 8.1 UNIVERSAL
+### Universal
 
 Reusable, non-identifiable domain structure.
 
-Examples:
+Examples include public ontology, generic causal structures, public regulatory references, and approved anonymized abstractions.
 
-* public ontology
-* generic causal rules
-* public regulatory references
-* anonymized abstractions where approved
-
----
-
-### 8.2 PRIVATE
+### Private
 
 Tenant-specific organizational data.
 
-Examples:
+Examples include internal workflows, tenant decisions, private graph structures, and organization-specific execution history.
 
-* internal workflows
-* tenant decisions
-* private graph structures
-* organization-specific execution history
-
----
-
-### 8.3 SENSITIVE
+### Sensitive
 
 High-risk or confidential data requiring enhanced controls.
 
-Examples:
+Examples include financial exposure, HR-related data, strategic plans, supplier dependency maps, and internal risk structures.
 
-* financial exposure
-* HR-related data
-* strategic plans
-* supplier dependency maps
-* internal risk structures
-
----
-
-### 8.4 REGULATED
+### Regulated
 
 Data subject to legal, sectoral, or jurisdictional requirements.
 
-Examples:
-
-* personal data
-* public-sector decision data
-* high-risk AI decision logs
-* regulated financial data
-* compliance evidence
+Examples include personal data, public-sector decision data, high-risk AI decision logs, regulated financial data, and compliance evidence.
 
 ---
 
@@ -341,20 +237,13 @@ Examples:
 
 Minimum encryption expectations:
 
-* AES-256 for data at rest
-* TLS 1.3 for data in transit
-* encrypted backups
-* encrypted secrets
-* encrypted sensitive graph storage where required
+- AES-256 for data at rest
+- TLS 1.3 for data in transit
+- encrypted backups
+- encrypted secrets
+- encrypted sensitive graph storage where required
 
-Encryption must apply to:
-
-* databases
-* object storage
-* event payloads where required
-* backups
-* secrets
-* sensitive configuration
+Encryption must apply to databases, object storage, event payloads where required, backups, secrets, and sensitive configuration.
 
 ---
 
@@ -362,18 +251,7 @@ Encryption must apply to:
 
 QORWAY should support role-based access control.
 
-Example roles:
-
-| Role                   | Responsibility                        |
-| ---------------------- | ------------------------------------- |
-| Executive              | Reviews strategic decisions           |
-| CFO                    | Approves capital allocation decisions |
-| Compliance Officer     | Reviews regulated decisions           |
-| Risk Officer           | Reviews systemic risk                 |
-| Sustainability Officer | Reviews ESG / carbon exposure         |
-| Domain Operator        | Executes domain workflows             |
-| System Admin           | Manages infrastructure access         |
-| AI Agent               | Performs bounded execution tasks      |
+Example roles may include executives, CFOs, compliance officers, risk officers, sustainability officers, domain operators, system administrators, and bounded AI agents.
 
 Every role must operate under explicit permissions.
 
@@ -383,37 +261,21 @@ Every role must operate under explicit permissions.
 
 AI agents must be bounded by:
 
-* tenant scope
-* allowed events
-* allowed actions
-* PolicyCore status
-* PulseFlow workflow context
-* human approval requirements
-* audit logging
+- tenant scope
+- allowed events
+- allowed actions
+- PolicyCore status
+- PulseFlow workflow context
+- human approval requirements
+- audit logging
 
-Agents must never:
-
-* execute outside PulseFlow
-* bypass PolicyCore
-* access unauthorized tenant data
-* modify causal rules without governance
-* call external systems without authorization
-* generate unlogged actions
+Agents must never execute outside PulseFlow, bypass PolicyCore, access unauthorized tenant data, modify causal rules without governance, call external systems without authorization, or generate unlogged actions.
 
 ---
 
 ## 12. Knowledge Graph Security
 
-The Knowledge Graph must enforce:
-
-* tenant-scoped access
-* graph namespace isolation
-* node and edge access controls where required
-* no cross-tenant traversal
-* no inference leakage
-* audit logs for sensitive graph access
-* controlled graph mutations
-* versioned schema updates
+The Knowledge Graph must enforce tenant-scoped access, graph namespace isolation, access controls where required, no cross-tenant traversal, no inference leakage, audit logs for sensitive graph access, controlled graph mutations, and versioned schema updates.
 
 Core rule:
 
@@ -434,15 +296,7 @@ Standard Domain Packs may contain reusable domain structure.
 
 Private Domain Packs may contain tenant-specific operating logic.
 
-Security requirements:
-
-* no private data inside Standard Packs
-* version control for pack updates
-* validation before runtime loading
-* PolicyCore compatibility
-* no untraceable causal rules
-* no actions without PulseFlow events
-* no feedback leakage into universal systems without governance
+Security requirements include no private data inside Standard Packs, version control for pack updates, validation before runtime loading, PolicyCore compatibility, traceability, and no feedback leakage into universal systems without governance.
 
 ---
 
@@ -450,22 +304,9 @@ Security requirements:
 
 PolicyCore is the primary runtime constraint authority.
 
-It must enforce:
+It must enforce constraint validation before execution, human approval where required, tenant-specific rules, regulatory constraints, ESG and financial limits, and execution eligibility.
 
-* constraint validation before execution
-* human approval where required
-* tenant-specific rules
-* regulatory constraints
-* ESG and financial limits
-* execution eligibility
-
-PolicyCore must never be bypassed by:
-
-* Atlas
-* PulseFlow
-* GreenCore
-* agents
-* external integrations
+PolicyCore must never be bypassed by Atlas, PulseFlow, GreenCore, agents, or external integrations.
 
 Core rule:
 
@@ -475,23 +316,9 @@ Core rule:
 
 ## 15. PulseFlow Security
 
-PulseFlow must ensure that every event is:
+PulseFlow must ensure that every event is tenant-scoped, authenticated, authorized, traceable, replayable where required, and linked to a validated decision where applicable.
 
-* tenant-scoped
-* authenticated
-* authorized
-* traceable
-* replayable where required
-* linked to a validated decision where applicable
-
-PulseFlow must support:
-
-* correlation IDs
-* event-level access control
-* immutable execution logs
-* dead letter handling
-* idempotent consumers
-* audit trail generation
+PulseFlow must support correlation, event-level access control, execution logs, dead letter handling where required, idempotent consumers where required, and audit trail generation.
 
 PulseFlow must never execute rejected or unvalidated decisions.
 
@@ -501,22 +328,9 @@ PulseFlow must never execute rejected or unvalidated decisions.
 
 GreenCore must optimize only approved execution paths.
 
-It must enforce:
+It must enforce tenant execution policies, data sensitivity rules, approved execution zones, carbon trace integrity, routing audit logs, no unauthorized cloud escalation, and no silent routing changes.
 
-* tenant execution policies
-* data sensitivity rules
-* approved execution zones
-* carbon trace integrity
-* routing audit logs
-* no unauthorized cloud escalation
-* no silent routing changes
-
-GreenCore must never:
-
-* override PolicyCore
-* route execution outside approved boundaries
-* hide carbon or cost impact
-* remove audit metadata
+GreenCore must never override PolicyCore, route execution outside approved boundaries, hide carbon or cost impact, or remove audit metadata.
 
 ---
 
@@ -526,16 +340,16 @@ Every governed decision must generate audit evidence.
 
 Audit evidence may include:
 
-* causal evidence log
-* decision trace
-* Domain Pack version
-* PolicyCore validation result
-* human approval event
-* PulseFlow execution log
-* GreenCore routing trace
-* carbon trace
-* execution outcome
-* feedback record
+- causal evidence log
+- decision trace
+- Domain Pack version
+- PolicyCore validation result
+- human approval event
+- PulseFlow execution log
+- GreenCore routing trace
+- carbon trace
+- execution outcome
+- feedback record
 
 Audit trails must answer:
 
@@ -544,7 +358,7 @@ What decision was made?
 Why was it made?
 Which rules applied?
 Which constraints were checked?
-Who approved it?
+Who approved it where required?
 How was it executed?
 Where was it executed?
 What happened afterward?
@@ -555,16 +369,7 @@ What did the system learn?
 
 ## 18. Human Oversight
 
-Human oversight must be supported where required by:
-
-* regulation
-* tenant policy
-* high financial exposure
-* high ESG impact
-* public interest
-* low confidence score
-* simulation drift
-* sensitive domain classification
+Human oversight must be supported where required by regulation, tenant policy, high financial exposure, high ESG impact, public interest, low confidence, simulation drift, or sensitive domain classification.
 
 Human approval must be logged and linked to the decision trace.
 
@@ -574,15 +379,15 @@ Human approval must be logged and linked to the decision trace.
 
 QORWAY should monitor:
 
-* authentication events
-* authorization failures
-* PolicyCore rejections
-* PulseFlow execution failures
-* GreenCore routing anomalies
-* cross-tenant access attempts
-* graph mutation events
-* agent execution events
-* feedback drift signals
+- authentication events
+- authorization failures
+- PolicyCore rejections
+- PulseFlow execution failures
+- GreenCore routing anomalies
+- cross-tenant access attempts
+- graph mutation events
+- agent execution events
+- feedback drift signals
 
 Logs must avoid unnecessary sensitive data exposure.
 
@@ -592,26 +397,9 @@ Logs must avoid unnecessary sensitive data exposure.
 
 Security incidents should be handled under a defined response model.
 
-Incident categories may include:
+Incident categories may include unauthorized access, tenant boundary violation, PolicyCore bypass attempt, unapproved execution, graph data leakage, event replay anomaly, secret exposure, agent boundary violation, and data residency violation.
 
-* unauthorized access
-* tenant boundary violation
-* PolicyCore bypass attempt
-* unapproved execution
-* graph data leakage
-* event replay anomaly
-* secret exposure
-* agent boundary violation
-* data residency violation
-
-Response should include:
-
-* containment
-* evidence preservation
-* root cause analysis
-* tenant impact assessment
-* corrective action
-* governance update where required
+Response should include containment, evidence preservation, root cause analysis, tenant impact assessment, corrective action, and governance update where required.
 
 ---
 
@@ -619,22 +407,22 @@ Response should include:
 
 Public repositories may contain:
 
-* high-level architecture
-* governance principles
-* public-safe standards
-* overview documents
-* non-sensitive examples
+- high-level architecture
+- governance principles
+- public-safe standards
+- overview documents
+- non-sensitive examples
 
 Private repositories must contain:
 
-* implementation details
-* internal prompts
-* full Domain Pack rules
-* scoring systems
-* production schemas
-* routing logic
-* detailed PolicyCore rules
-* proprietary causal models
+- implementation details
+- internal prompts
+- full Domain Pack rules
+- scoring systems
+- production schemas
+- routing logic
+- detailed PolicyCore rules
+- proprietary causal models
 
 Core rule:
 
@@ -646,16 +434,16 @@ Core rule:
 
 A system state is security-invalid if:
 
-* tenant boundaries are broken
-* a decision bypasses PolicyCore
-* execution occurs outside PulseFlow
-* GreenCore routes outside approved boundaries
-* private tenant data appears in a Standard Pack
-* feedback leaks across tenants
-* causal lineage cannot be reconstructed
-* audit evidence is missing
-* agents execute outside allowed roles
-* secrets are exposed
+- tenant boundaries are broken
+- a decision bypasses PolicyCore
+- execution occurs outside PulseFlow
+- GreenCore routes outside approved boundaries
+- private tenant data appears in a Standard Pack
+- feedback leaks across tenants
+- causal lineage cannot be reconstructed
+- audit evidence is missing
+- agents execute outside allowed roles
+- secrets are exposed
 
 ---
 
@@ -663,12 +451,12 @@ A system state is security-invalid if:
 
 QORWAY security is not:
 
-* a checklist
-* a late-stage audit task
-* a dashboard
-* an access control layer only
-* an infrastructure-only concern
-* a compliance claim without evidence
+- a checklist
+- a late-stage audit task
+- a dashboard
+- an access control layer only
+- an infrastructure-only concern
+- a compliance claim without evidence
 
 It is a runtime property of the decision system.
 
@@ -678,24 +466,9 @@ It is a runtime property of the decision system.
 
 Security and compliance are central to QORWAY’s market position.
 
-QORWAY is designed for environments where decisions must be:
+QORWAY is designed for environments where decisions must be explainable, governed, sovereign, auditable, safe to execute, and trusted by institutions and enterprises.
 
-* explainable
-* governed
-* sovereign
-* auditable
-* safe to execute
-* trusted by institutions and enterprises
-
-This is essential for:
-
-* regulated enterprises
-* public-sector systems
-* finance
-* ESG / CSRD
-* risk management
-* AI Act-aligned infrastructure
-* sovereign European adoption
+This is essential for regulated enterprises, public-sector systems, finance, ESG / CSRD, risk management, AI Act-aligned infrastructure, and sovereign European adoption.
 
 ---
 
@@ -709,15 +482,8 @@ It protects the integrity of the full decision lifecycle:
 data → reasoning → decision → validation → execution → feedback
 ```
 
-Final system statement:
-
 > QORWAY makes intelligence secure enough to execute.
 
-```
 ---
-*© QORWAY Technology — www.qorway.com*  
-```
----
-© Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey.
-All rights reserved.
-```
+
+© 2026 Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey. All rights reserved.
