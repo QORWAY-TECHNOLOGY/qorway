@@ -1,10 +1,8 @@
-````md
 # Decision Intelligence Loop
 
 **QORWAY Decision Intelligence Infrastructure**
 
-> From fragmented decision-making  
-> → to causal, constrained, executable, and self-improving systems.
+> From fragmented decision-making to causal, constrained, executable, and self-improving systems.
 
 ---
 
@@ -23,13 +21,7 @@ It transforms organizational data into:
 
 QORWAY does not treat decisions as isolated outputs.
 
-A decision is a system object that must be:
-
-- explained
-- validated
-- executed
-- measured
-- improved
+A decision is a system object that must be explained, validated, executed, measured, and improved.
 
 ---
 
@@ -49,7 +41,7 @@ The Decision Intelligence Loop solves this by connecting:
 
 ```text
 data → reasoning → validation → execution → feedback → learning
-````
+```
 
 into one continuous infrastructure.
 
@@ -74,19 +66,19 @@ This loop is the foundation of QORWAY.
 
 ---
 
-## 4. Step 1 — Data Ingestion
+## 4. Data Ingestion
 
 QORWAY receives signals from enterprise systems.
 
 Sources may include:
 
-* ERP systems
-* CRM systems
-* finance tools
-* ESG / CSRD systems
-* operational tools
-* human decision inputs
-* external regulatory signals
+- ERP systems
+- CRM systems
+- finance tools
+- ESG / CSRD systems
+- operational tools
+- human decision inputs
+- external regulatory signals
 
 The goal is not to collect data for reporting.
 
@@ -94,20 +86,20 @@ The goal is to convert signals into structured decision context.
 
 ---
 
-## 5. Step 2 — Knowledge Graph Update
+## 5. Knowledge Graph Update
 
 The Knowledge Graph models the organization as a causal system.
 
 It structures:
 
-* indicators
-* actions
-* risks
-* gates
-* outcomes
-* dependencies
-* decisions
-* feedback signals
+- indicators
+- actions
+- risks
+- gates
+- outcomes
+- dependencies
+- decisions
+- feedback signals
 
 Every new signal can update the graph.
 
@@ -115,17 +107,17 @@ The Knowledge Graph becomes the memory layer of QORWAY.
 
 ---
 
-## 6. Step 3 — Atlas Causal Reasoning
+## 6. Atlas Causal Reasoning
 
 Atlas reasons over the Knowledge Graph.
 
 It identifies:
 
-* causal chains
-* bottlenecks
-* risk propagation paths
-* decision dependencies
-* impact scenarios
+- causal chains
+- bottlenecks
+- risk propagation paths
+- decision dependencies
+- impact scenarios
 
 Atlas does not generate generic text.
 
@@ -137,28 +129,20 @@ It answers:
 
 ---
 
-## 7. Step 4 — Domain Pack Enrichment
+## 7. Domain Pack Enrichment
 
-Domain Packs inject domain-specific logic into the reasoning process.
+Domain Packs inject domain-specific context into the reasoning process.
 
-A Domain Pack contains:
+A Domain Pack may define:
 
-* domain Knowledge Graph structure
-* causal rules
-* indicators
-* actions
-* risks
-* gates
-* templates
-* decision heuristics
-
-Examples:
-
-* Finance Pack
-* ESG / CSRD Pack
-* Risk Pack
-* Supply Chain Pack
-* Governance Pack
+- domain entities
+- causal context
+- indicators
+- actions
+- risks
+- gates
+- outcomes
+- feedback expectations
 
 Domain Packs make Atlas operational in a specific business context.
 
@@ -168,20 +152,20 @@ They answer:
 
 ---
 
-## 8. Step 5 — PolicyCore Validation
+## 8. PolicyCore Validation
 
 PolicyCore validates whether the decision can exist in the real world.
 
 It evaluates constraints such as:
 
-* regulatory constraints
-* GDPR requirements
-* EU AI Act requirements
-* ESG constraints
-* financial limits
-* ethical rules
-* system capacity constraints
-* tenant-specific policies
+- regulatory constraints
+- GDPR requirements
+- EU AI Act requirements
+- ESG constraints
+- financial limits
+- ethical rules
+- system capacity constraints
+- tenant-specific policies
 
 PolicyCore can return:
 
@@ -199,36 +183,36 @@ PolicyCore answers:
 
 ---
 
-## 9. Step 6 — Decision Generation
+## 9. Decision Generation
 
 After reasoning, domain enrichment, and constraint validation, QORWAY generates a structured decision.
 
 A QORWAY decision must include:
 
-* decision ID
-* causal chain
-* domain context
-* expected impact
-* PolicyCore status
-* execution requirements
-* audit metadata
+- decision identity
+- causal lineage
+- domain context
+- expected impact
+- PolicyCore status
+- execution requirements
+- audit metadata
 
 A decision is invalid if it cannot be traced.
 
 ---
 
-## 10. Step 7 — PulseFlow Orchestration
+## 10. PulseFlow Orchestration
 
 PulseFlow transforms validated decisions into execution events.
 
 It orchestrates:
 
-* workflows
-* agents
-* systems
-* event streams
-* execution logs
-* feedback signals
+- workflows
+- agents
+- systems
+- event streams
+- execution logs
+- feedback signals
 
 PulseFlow does not reason.
 
@@ -240,19 +224,19 @@ It answers:
 
 ---
 
-## 11. Step 8 — GreenCore Optimization
+## 11. GreenCore Optimization
 
 GreenCore optimizes how execution should happen.
 
 It evaluates:
 
-* cost
-* latency
-* carbon footprint
-* compute intensity
-* execution location
-* data sovereignty
-* tenant policy
+- cost
+- latency
+- carbon footprint
+- compute intensity
+- execution location
+- data sovereignty
+- tenant policy
 
 Execution may be routed to:
 
@@ -272,49 +256,49 @@ GreenCore answers:
 
 ---
 
-## 12. Step 9 — Execution
+## 12. Execution
 
 The approved and optimized execution path is carried out through:
 
-* agents
-* workflows
-* APIs
-* enterprise systems
-* human-in-the-loop approvals where required
+- agents
+- workflows
+- APIs
+- enterprise systems
+- human-in-the-loop approvals where required
 
 Execution must be:
 
-* traceable
-* tenant-scoped
-* auditable
-* reversible where possible
-* logged as events
+- traceable
+- tenant-scoped
+- auditable
+- reversible where possible
+- logged as events
 
 No execution should happen outside PulseFlow.
 
 ---
 
-## 13. Step 10 — Feedback Learning Loop
+## 13. Feedback Learning Loop
 
 After execution, QORWAY captures feedback.
 
 Feedback may include:
 
-* actual outcome
-* deviation from expected result
-* execution delay
-* financial impact
-* operational impact
-* compliance impact
-* energy / carbon impact
+- actual outcome
+- deviation from expected result
+- execution delay
+- financial impact
+- operational impact
+- compliance impact
+- energy or carbon impact
 
 Feedback updates:
 
-* the Knowledge Graph
-* Atlas confidence scores
-* causal weights
-* domain heuristics
-* future decision logic
+- the Knowledge Graph
+- Atlas confidence signals
+- causal understanding
+- domain heuristics
+- future decision logic
 
 This transforms QORWAY into a self-improving decision infrastructure.
 
@@ -363,53 +347,22 @@ KNOWLEDGE GRAPH UPDATE
 
 ---
 
-## 16. Decision Object
-
-A QORWAY decision is not a text recommendation.
-
-It is a structured system object.
-
-Example:
-
-```json
-{
-  "decision_id": "dec_001",
-  "tenant_id": "tenant_001",
-  "domain_pack": "supply_chain_pack",
-  "causal_chain": [
-    "supplier_delay",
-    "inventory_pressure",
-    "margin_degradation"
-  ],
-  "policy_status": "approved",
-  "recommended_action": "reroute_supplier_allocation",
-  "expected_impact": {
-    "margin": "+3.2%",
-    "delay_reduction": "-18%"
-  },
-  "execution_required": true,
-  "audit_status": "traceable"
-}
-```
-
----
-
-## 17. System Rules
+## 16. System Rules
 
 The Decision Intelligence Loop enforces strict rules:
 
-* Atlas cannot execute decisions directly.
-* PolicyCore cannot be bypassed.
-* PulseFlow cannot execute rejected decisions.
-* GreenCore cannot override PolicyCore.
-* Domain Packs cannot weaken constraints.
-* Every decision must have causal lineage.
-* Every execution must create feedback.
-* Every feedback signal must be available for learning.
+- Atlas cannot execute decisions directly.
+- PolicyCore cannot be bypassed.
+- PulseFlow cannot execute rejected decisions.
+- GreenCore cannot override PolicyCore.
+- Domain Packs cannot weaken constraints.
+- Every decision must have causal lineage.
+- Every execution must create feedback.
+- Every feedback signal must be available for learning.
 
 ---
 
-## 18. What This Replaces
+## 17. What This Replaces
 
 Traditional enterprise systems operate like this:
 
@@ -427,42 +380,36 @@ This is the shift from reporting to decision infrastructure.
 
 ---
 
-## 19. Strategic Impact
+## 18. Strategic Impact
 
 The Decision Intelligence Loop enables organizations to become:
 
-* more explainable
-* more auditable
-* more adaptive
-* more execution-aware
-* more compliant
-* more efficient
+- more explainable
+- more auditable
+- more adaptive
+- more execution-aware
+- more compliant
+- more efficient
 
 It turns decision-making into an operating system capability.
 
 ---
 
-## 20. Final Statement
+## 19. Final Statement
 
 The Decision Intelligence Loop is the core runtime model of QORWAY.
 
 It ensures that every decision is:
 
-* causal
-* contextual
-* constrained
-* executable
-* auditable
-* continuously improved
+- causal
+- contextual
+- constrained
+- executable
+- auditable
+- continuously improved
 
 > QORWAY transforms organizations into self-improving decision systems.
 
-```
 ---
-*© QORWAY Technology — www.qorway.com*  
-```
----
-© Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey.
-All rights reserved.
-```
-```
+
+© 2026 Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey. All rights reserved.
