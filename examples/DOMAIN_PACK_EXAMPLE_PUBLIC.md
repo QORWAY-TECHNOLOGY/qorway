@@ -10,7 +10,7 @@
 
 This document provides a simplified public example of a QORWAY Domain Pack.
 
-It is intended to show how QORWAY thinks about domain-specific decision intelligence at a conceptual level.
+It shows how QORWAY thinks about domain-specific decision intelligence at a conceptual level.
 
 It does not expose:
 
@@ -32,9 +32,9 @@ This example uses a fictional domain:
 
 ```text
 Operational Resilience Pack
-````
+```
 
-This fictional pack is used only to demonstrate the structure of a Domain Pack.
+This fictional pack is used only to demonstrate the conceptual structure of a Domain Pack.
 
 It is not a real production Domain Pack.
 
@@ -50,11 +50,11 @@ Conceptually, a Domain Pack contains:
 Domain Pack
 ├── Domain Identity
 ├── Knowledge Structure
-├── Causal Logic
-├── Decision Logic
+├── Causal Context
+├── Decision Context
 ├── Constraint Context
 ├── Execution Context
-├── Feedback Logic
+├── Feedback Context
 └── Impact Lens
 ```
 
@@ -114,15 +114,15 @@ This enables causal reasoning without exposing proprietary graph models.
 
 ---
 
-## 7. Conceptual Causal Logic
+## 7. Conceptual Causal Context
 
-A Domain Pack may define causal patterns such as:
+A Domain Pack may define high-level causal patterns such as:
 
 ```text
 If a critical operational signal changes,
 then related risks should be evaluated.
 
-If a risk exceeds an acceptable threshold,
+If a risk exceeds an acceptable boundary,
 then mitigation actions should be considered.
 
 If an action is executed,
@@ -135,7 +135,7 @@ The actual causal rules, weights, thresholds, and logic are proprietary.
 
 ---
 
-## 8. Conceptual Decision Logic
+## 8. Conceptual Decision Context
 
 A Domain Pack may help Atlas convert causal understanding into decision candidates.
 
@@ -222,7 +222,7 @@ Core rule:
 
 ---
 
-## 12. Feedback Logic
+## 12. Feedback Context
 
 A Domain Pack must define how outcomes are observed.
 
@@ -316,18 +316,18 @@ It does not expose production logic.
 
 This public example intentionally excludes:
 
-* exact graph schemas
-* production node models
-* real causal chains
-* thresholds
-* scoring formulas
-* prompts
-* execution contracts
-* event payloads
-* tenant data
-* PolicyCore rules
-* GreenCore routing rules
-* agent implementation details
+- exact graph schemas
+- production node models
+- real causal chains
+- thresholds
+- scoring formulas
+- prompts
+- execution contracts
+- event payloads
+- tenant data
+- PolicyCore rules
+- GreenCore routing rules
+- agent implementation details
 
 These belong in private QORWAY repositories.
 
@@ -339,12 +339,12 @@ Domain Packs allow QORWAY to become domain-aware without rewriting the core infr
 
 They enable:
 
-* reusable domain intelligence
-* faster deployment
-* governed execution
-* audit-ready decisions
-* tenant-specific extension
-* feedback-based refinement
+- reusable domain intelligence
+- faster deployment
+- governed execution
+- audit-ready decisions
+- tenant-specific extension
+- feedback-based refinement
 
 This is central to QORWAY’s platform model.
 
@@ -356,13 +356,6 @@ A Domain Pack is the mechanism that turns the QORWAY core into a domain-specific
 
 > Domain Packs convert domain reality into causal, constrained, executable intelligence.
 
-```
-```
 ---
-*© QORWAY Technology — www.qorway.com*  
-```
----
-© Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey.
-All rights reserved.
-```
-```
+
+© 2026 Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey. All rights reserved.
