@@ -1,153 +1,156 @@
-````md
 # QORWAY Vision
 
-**Sovereign Decision Intelligence Infrastructure for Europe**
+**Sovereign Decision Governance Infrastructure for Europe**
 
-> From fragmented decision-making  
-> → to causal, constrained, executable, and auditable systems.
-
----
-
-## 1. The Shift
-
-Modern organizations do not lack data.
-
-They lack a system capable of turning that data into:
-
-- causal understanding
-- valid decisions
-- governed execution
-- measurable feedback
-- continuous learning
-
-Most enterprises still operate through fragmented tools, disconnected workflows, and dashboards that describe the past without governing what should happen next.
-
-QORWAY exists to replace this fragmentation with a new infrastructure layer for decision intelligence.
+> QORWAY transforms complex domain constraints  
+> into auditable executive decisions.
 
 ---
 
-## 2. The Problem
+## The Infrastructure Gap
 
-Enterprise decision-making is structurally broken.
+Enterprise AI in 2026 generates output.
 
-Decisions are often:
+It does not govern decisions.
 
-- distributed across teams and tools
-- based on incomplete context
-- disconnected from execution
-- difficult to audit
-- weakly linked to measurable outcomes
-- constrained by regulations only after the fact
+There is no structured layer between the reasoning a system produces
+and the decision an executive must validate, sign, and act upon
+under regulatory, financial, and operational constraints.
 
-As organizations face increasing complexity, this model no longer scales.
-
-The next generation of enterprise systems must not only process data.
-
-They must structure, validate, execute, and learn from decisions.
+That gap — between AI output and governed executive decision —
+is the infrastructure gap QORWAY closes.
 
 ---
 
-## 3. The QORWAY Paradigm
+## What QORWAY Is
 
-QORWAY defines a new paradigm:
+QORWAY is decision governance infrastructure.
 
-```text
-data → reasoning → constraint validation → execution → feedback → learning
-````
+It is the layer that sits between enterprise data and executive action.
 
-This means that decisions are no longer treated as isolated human judgments, reports, or recommendations.
+It connects:
+- structured domain knowledge
+- causal reasoning
+- constraint validation
+- event orchestration
+- sovereign execution
+- feedback learning
 
-They become structured system objects that can be:
+into one governed, traceable, auditable runtime.
 
-* modeled
-* simulated
-* constrained
-* executed
-* traced
-* improved
+The result is not a report. Not a dashboard. Not a recommendation list.
 
-QORWAY transforms decision-making into an infrastructure problem.
-
----
-
-## 4. Decision Intelligence Infrastructure
-
-QORWAY is building a sovereign decision intelligence infrastructure composed of five core layers:
-
-```text
-Atlas       → Causal Intelligence Engine
-Domain Packs → Context & Business Intelligence Layer
-PolicyCore  → Constraint Validation Layer
-PulseFlow   → Execution Orchestration Layer
-GreenCore   → Execution Optimization Layer
-```
-
-Together, these layers allow organizations to move from fragmented decision-making to causal, constrained, executable intelligence.
+The result is a **governed decision** — produced by a causal engine,
+validated by a constraint layer, traceable to every rule and evidence gap
+that shaped it, and delivered to a human validation gate before execution.
 
 ---
 
-## 5. Why This Matters
+## The Core Thesis
 
-The next generation of organizations will not be driven by dashboards.
+> The future of enterprise AI is not automation alone.  
+> It is decision infrastructure.
 
-Dashboards show what happened.
+Organizations do not lack AI output.
+They lack the infrastructure to govern what AI produces —
+to constrain it, validate it, trace it, and act on it
+under the weight of regulatory obligation, financial exposure,
+and operational reality.
 
-QORWAY is designed to help organizations understand:
-
-* why it happened
-* what decision should follow
-* whether that decision is allowed
-* how it should be executed
-* what happened after execution
-* how the system should learn from it
-
-This is the difference between reporting and intelligence.
+QORWAY is that infrastructure.
 
 ---
 
-## 6. European Standard
+## Architecture Doctrine
 
-QORWAY is designed for the European context.
-
-It is built around:
-
-* sovereignty
-* explainability
-* auditability
-* GDPR alignment
-* EU AI Act readiness
-* energy-aware execution
-* multi-tenant isolation
-
-Europe does not only need more AI models.
-
-Europe needs infrastructure that makes intelligence usable, governable, and accountable.
-
-QORWAY is building that infrastructure.
-
----
-
-## 7. Final Vision
-
-QORWAY’s vision is to become the European standard for decision intelligence infrastructure.
-
-A system where:
-
-* decisions are causal
-* execution is governed
-* constraints are native
-* intelligence is auditable
-* systems learn continuously
-
-> QORWAY turns organizations into causal, executable, and self-improving decision systems.
+QORWAY operates as a 5-layer decision governance stack:
 
 ```
-© QORWAY Technology — All rights reserved
+ATLAS        — Causal Intelligence Engine
+Domain Packs — Context Intelligence Layer
+PolicyCore   — Constraint Validation Layer
+PulseFlow    — Event Orchestration Layer
+GreenCore    — Sovereign Optimization Layer
+```
 
-This repository contains proprietary concepts, systems, and architectural frameworks.
+Each layer has one responsibility.
+No layer substitutes for another.
+The stack is not a product suite.
+It is a governed execution architecture.
 
-No part of this material may be reproduced, distributed, or used without explicit written permission.
+---
 
-Commercial use requires a formal licensing agreement with QORWAY Technology.
+## Domain Packs — Not Modules
+
+Domain Packs are not product modules.
+They are not sold as add-ons.
+They are not vertical SaaS features.
+
+A Domain Pack is a declarative cognitive configuration
+that makes ATLAS capable of reasoning inside a specific
+constrained domain — without modifying the engine.
+
+The CSRD/RSE Domain Pack is the first proof
+that this activation mechanism works on a regulated domain
+with real constraint complexity, real evidence requirements,
+and real financial exposure.
+
+It is proof of infrastructure — not a market product.
+
+---
+
+## What QORWAY Is Not
+
+QORWAY is not:
+- a chatbot or AI assistant
+- a compliance questionnaire or ESG checklist
+- a reporting SaaS or dashboard
+- a carbon accounting clone
+- a generic automation platform
+- a vertical product targeting a specific sector
+
+QORWAY is infrastructure.
+
+The domains where it activates are determined by Domain Packs.
+The infrastructure itself is domain-agnostic.
+
+---
+
+## Sovereignty
+
+QORWAY is designed for European sovereignty by construction — not compliance.
+
+- EU cloud deployment (Scaleway)
+- EU AI Act alignment embedded in PolicyCore
+- GDPR compliance at the data architecture level
+- Multi-tenant isolation enforced at the database layer, not the application layer
+- No dependency on non-EU AI infrastructure for decision-critical reasoning
+
+Sovereignty is not a feature.
+It is a constraint applied across all 5 layers.
+
+---
+
+## The Decision as Unit of Value
+
+QORWAY does not sell reports.
+QORWAY does not sell indicators.
+QORWAY does not sell dashboards.
+
+QORWAY delivers **governed decisions** —
+causal, constrained, traceable, validated by a human gate,
+and executable within a sovereign runtime.
+
+The Decision Card is the atomic unit of value.
+Every field in a Decision Card must be traceable
+to a causal rule, an evidence gap, a constraint gate,
+and a financial criterion.
+
+A decision that cannot be fully traced does not exist in QORWAY.
+
+---
+
+*© QORWAY Technology SAS — www.qorway.com*  
+*Proprietary. All rights reserved.*
 
 ```
