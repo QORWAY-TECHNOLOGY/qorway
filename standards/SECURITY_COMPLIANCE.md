@@ -713,10 +713,11 @@ Final system statement:
 
 > QORWAY makes intelligence secure enough to execute.
 
+```
 ---
-
-## 📜 License
-
-© QORWAY Technology — All rights reserved.
-
-Usage is subject to commercial licensing agreements.
+*© QORWAY Technology — www.qorway.com*  
+```
+---
+© Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey.
+All rights reserved.
+```
