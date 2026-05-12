@@ -1,3 +1,4 @@
+````md
 # Domain Pack Standard v2.0
 
 **QORWAY Decision Intelligence Infrastructure**  
