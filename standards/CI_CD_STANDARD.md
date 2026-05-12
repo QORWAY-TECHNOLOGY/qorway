@@ -569,10 +569,11 @@ Final system statement:
 
 > QORWAY releases must never break decision integrity.
 
+```
 ---
-
-## 📜 License
-
-© QORWAY Technology — All rights reserved.
-
-Usage is subject to commercial licensing agreements.
+*© QORWAY Technology — www.qorway.com*  
+```
+---
+© Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey.
+All rights reserved.
+```
