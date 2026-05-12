@@ -2,8 +2,7 @@
 
 **QORWAY Decision Intelligence Infrastructure**
 
-> QORWAY does not treat data as static information.  
-> It treats data as the foundation of causal reasoning, governed execution, and auditable decision intelligence.
+> QORWAY does not treat data as static information. It treats data as the foundation of causal reasoning, governed execution, and auditable decision intelligence.
 
 ---
 
@@ -34,7 +33,7 @@ Traditional enterprise systems often treat data governance as:
 
 ```text
 data storage → access control → reporting
-````
+```
 
 QORWAY treats data governance as:
 
@@ -42,17 +41,7 @@ QORWAY treats data governance as:
 data → graph → reasoning → validation → execution → feedback
 ```
 
-This means governance must apply across:
-
-* ingestion
-* Knowledge Graph modeling
-* Atlas reasoning
-* Domain Pack instantiation
-* PolicyCore validation
-* PulseFlow events
-* GreenCore routing
-* execution logs
-* feedback learning
+This means governance must apply across ingestion, Knowledge Graph modeling, Atlas reasoning, Domain Pack instantiation, PolicyCore validation, PulseFlow events, GreenCore routing, execution logs, and feedback learning.
 
 Core principle:
 
@@ -62,17 +51,7 @@ Core principle:
 
 ## 3. Data Role in QORWAY
 
-Data is used by QORWAY to:
-
-* update the Knowledge Graph
-* activate causal chains
-* evaluate risks
-* generate decisions
-* validate constraints
-* orchestrate execution
-* optimize execution routing
-* measure outcomes
-* improve future reasoning
+Data is used by QORWAY to update the Knowledge Graph, activate causal chains, evaluate risks, generate decisions, validate constraints, orchestrate execution, optimize execution routing, measure outcomes, and improve future reasoning.
 
 Data is never treated as isolated.
 
@@ -112,108 +91,57 @@ SENSITIVE
 REGULATED
 ```
 
-Each classification determines:
-
-* access rules
-* storage rules
-* routing rules
-* encryption requirements
-* audit requirements
-* reuse boundaries
-* feedback learning permissions
+Each classification determines access rules, storage rules, routing rules, encryption requirements, audit requirements, reuse boundaries, and feedback learning permissions.
 
 ---
 
-## 6. UNIVERSAL Data
+## 6. Universal Data
 
-UNIVERSAL data is reusable, non-identifiable, non-tenant-specific structure.
+Universal data is reusable, non-identifiable, non-tenant-specific structure.
 
-Examples:
-
-* public ontology
-* generic causal patterns
-* public regulatory references
-* standardized Domain Pack structures
-* anonymized abstractions where governance permits
-
-UNIVERSAL data may be used across the QORWAY ecosystem only if it does not expose tenant-specific information.
+Examples include public ontology, generic causal patterns, public regulatory references, standardized Domain Pack structures, and approved anonymized abstractions.
 
 Core rule:
 
-> UNIVERSAL data must never contain private tenant reality.
+> Universal data must never contain private tenant reality.
 
 ---
 
-## 7. PRIVATE Data
+## 7. Private Data
 
-PRIVATE data belongs to a specific tenant.
+Private data belongs to a specific tenant.
 
-Examples:
-
-* organization-specific Knowledge Graph nodes
-* internal workflows
-* tenant decision history
-* tenant execution logs
-* private dependencies
-* proprietary operating structures
-* tenant-specific feedback signals
-
-PRIVATE data must remain inside the tenant boundary.
+Examples include organization-specific Knowledge Graph nodes, internal workflows, tenant decision history, tenant execution logs, private dependencies, proprietary operating structures, and tenant-specific feedback signals.
 
 Core rule:
 
-> PRIVATE data must never become reusable intelligence without explicit anonymization and governance approval.
+> Private data must never become reusable intelligence without explicit anonymization and governance approval.
 
 ---
 
-## 8. SENSITIVE Data
+## 8. Sensitive Data
 
-SENSITIVE data requires enhanced protection.
+Sensitive data requires enhanced protection.
 
-Examples:
+Examples include financial exposure data, HR-related data, supplier dependency maps, strategic plans, confidential risk models, internal performance signals, and executive decision records.
 
-* financial exposure data
-* HR-related data
-* supplier dependency maps
-* strategic plans
-* confidential risk models
-* internal performance signals
-* executive decision records
-
-SENSITIVE data requires:
-
-* stronger access control
-* encryption
-* audit logging
-* restricted execution routing
-* PolicyCore validation where relevant
-* GreenCore sovereignty-aware routing
+Sensitive data requires stronger access control, encryption, audit logging, restricted execution routing, and validation where relevant.
 
 Core rule:
 
-> SENSITIVE data must never leave approved execution boundaries without governance approval.
+> Sensitive data must never leave approved execution boundaries without governance approval.
 
 ---
 
-## 9. REGULATED Data
+## 9. Regulated Data
 
-REGULATED data is subject to legal, sectoral, or jurisdictional requirements.
+Regulated data is subject to legal, sectoral, or jurisdictional requirements.
 
-Examples:
-
-* personal data
-* public-sector decision data
-* high-risk AI decision logs
-* regulated financial data
-* compliance evidence
-* ESG / CSRD evidence where applicable
-* health, labor, or citizen-impact data where applicable
-
-REGULATED data must be handled according to applicable policies and legal requirements.
+Examples include personal data, public-sector decision data, high-risk AI decision logs, regulated financial data, compliance evidence, ESG / CSRD evidence where applicable, and health, labor, or citizen-impact data where applicable.
 
 Core rule:
 
-> REGULATED data requires explicit governance before reasoning, execution, reuse, or export.
+> Regulated data requires explicit governance before reasoning, execution, reuse, or export.
 
 ---
 
@@ -221,18 +149,7 @@ Core rule:
 
 Every tenant operates inside a sovereign data boundary.
 
-Tenant sovereignty applies to:
-
-* raw data
-* normalized data
-* Private Knowledge Graph
-* Domain Pack instantiation
-* PolicyCore constraints
-* PulseFlow events
-* GreenCore policies
-* execution logs
-* feedback records
-* audit evidence
+Tenant sovereignty applies to raw data, normalized data, Private Knowledge Graph, Domain Pack instantiation, PolicyCore constraints, PulseFlow events, GreenCore policies, execution logs, feedback records, and audit evidence.
 
 Core rule:
 
@@ -244,17 +161,7 @@ Core rule:
 
 The Knowledge Graph is the main structure through which QORWAY turns data into intelligence.
 
-Graph governance requires:
-
-* node classification
-* relationship classification
-* tenant namespace isolation
-* controlled graph mutations
-* schema versioning
-* access logs
-* auditability of causal paths
-* no orphan critical nodes
-* no unauthorized graph traversal
+Graph governance requires node classification, relationship classification, tenant namespace isolation, controlled graph mutations, schema versioning, access logs, auditability of causal paths, no orphan critical nodes, and no unauthorized graph traversal.
 
 Graph data must preserve the distinction between:
 
@@ -265,51 +172,7 @@ Private Tenant Knowledge Graph
 
 ---
 
-## 12. Universal vs Private Knowledge Graph
-
-### 12.1 Universal Knowledge Graph
-
-The Universal Knowledge Graph may contain:
-
-* reusable domain structures
-* standard causal relationships
-* public regulatory logic
-* non-identifiable patterns
-* generalized abstractions
-
-It must never contain:
-
-* tenant-specific workflows
-* identifiable entities
-* proprietary dependencies
-* sensitive operating data
-* raw customer or citizen data
-
----
-
-### 12.2 Private Tenant Knowledge Graph
-
-The Private Tenant Knowledge Graph may contain:
-
-* tenant-specific entities
-* internal dependencies
-* private causal relationships
-* decision history
-* execution history
-* feedback records
-* sensitive operational logic
-
-It must be:
-
-* isolated
-* encrypted where required
-* access-controlled
-* non-transferable
-* excluded from other tenant reasoning
-
----
-
-## 13. Data Lineage
+## 12. Data Lineage
 
 QORWAY must preserve data lineage wherever data influences a decision.
 
@@ -321,8 +184,8 @@ When was it ingested?
 How was it transformed?
 Which Knowledge Graph node did it update?
 Which decision did it influence?
-Which PolicyCore constraint used it?
-Which PulseFlow event executed from it?
+Which constraint used it?
+Which execution event referenced it?
 Which feedback signal updated it?
 ```
 
@@ -330,33 +193,17 @@ A decision is incomplete if the data lineage behind it cannot be reconstructed.
 
 ---
 
-## 14. Decision-Linked Data
+## 13. Decision-Linked Data
 
-Data used for decisions must be linked to:
-
-* decision ID
-* tenant ID
-* Domain Pack
-* Knowledge Graph node
-* causal chain
-* PolicyCore evaluation where applicable
-* PulseFlow execution event where applicable
-* feedback reference where applicable
+Data used for decisions must be linked to decision identity, tenant scope, Domain Pack context, Knowledge Graph context, causal lineage, constraint evaluation where applicable, execution reference where applicable, and feedback reference where applicable.
 
 This ensures that QORWAY decisions remain auditable and explainable.
 
 ---
 
-## 15. Data Minimization
+## 14. Data Minimization
 
-QORWAY should only process the data required for:
-
-* causal reasoning
-* constraint validation
-* execution orchestration
-* optimization
-* feedback learning
-* audit evidence
+QORWAY should only process the data required for causal reasoning, constraint validation, execution orchestration, optimization, feedback learning, and audit evidence.
 
 Data not required for the decision lifecycle should not be collected or retained unnecessarily.
 
@@ -366,85 +213,45 @@ Core rule:
 
 ---
 
-## 16. Access Control
+## 15. Access Control
 
 Data access must follow least privilege.
 
-Access controls should apply to:
+Access controls should apply to users, services, agents, graph queries, event consumers, API integrations, Domain Pack runtime contexts, and feedback processors.
 
-* users
-* services
-* agents
-* graph queries
-* event consumers
-* API integrations
-* Domain Pack runtime loaders
-* feedback processors
-
-Access must be:
-
-* authenticated
-* authorized
-* tenant-scoped
-* logged where required
+Access must be authenticated, authorized, tenant-scoped, and logged where required.
 
 No component should have unrestricted access by default.
 
 ---
 
-## 17. Agent Data Access
+## 16. Agent Data Access
 
 Agents may access only the data required for their bounded task.
 
-Agents must not:
-
-* access data outside tenant scope
-* access raw sensitive data unless authorized
-* modify Knowledge Graph state without governance
-* export data without approval
-* use private tenant data for another tenant
-* call external systems with unauthorized data
+Agents must not access data outside tenant scope, access raw sensitive data unless authorized, modify Knowledge Graph state without governance, export data without approval, use private tenant data for another tenant, or call external systems with unauthorized data.
 
 Agent access must be traceable.
 
 ---
 
-## 18. Data in PulseFlow Events
+## 17. Data in PulseFlow Events
 
 PulseFlow events must include only necessary execution context.
 
 Events must avoid unnecessary sensitive payloads.
 
-Recommended event metadata:
-
-* event ID
-* tenant ID
-* decision ID
-* Domain Pack reference
-* causal chain reference
-* PolicyCore status
-* execution target
-* timestamp
-* correlation ID
-* audit metadata
+Recommended event metadata may include event identity, tenant scope, decision reference, Domain Pack reference, causal reference, PolicyCore status, execution target, timestamp, correlation reference, and audit metadata.
 
 Sensitive event payloads should be minimized, encrypted, or referenced indirectly where possible.
 
 ---
 
-## 19. Data in GreenCore Routing
+## 18. Data in GreenCore Routing
 
 GreenCore should receive only the data required to optimize execution.
 
-GreenCore may use:
-
-* data classification
-* sensitivity level
-* compute complexity
-* latency requirement
-* execution region requirement
-* tenant policy
-* carbon tracking requirement
+GreenCore may use data classification, sensitivity level, compute complexity, latency requirement, execution region requirement, tenant policy, and carbon tracking requirement.
 
 GreenCore should not require raw business data unless explicitly authorized.
 
@@ -454,46 +261,23 @@ Core rule:
 
 ---
 
-## 20. Data in PolicyCore Validation
+## 19. Data in PolicyCore Validation
 
 PolicyCore may use data required for constraint evaluation.
 
-Examples:
-
-* regulatory classification
-* risk exposure
-* financial threshold
-* human approval requirement
-* ESG / carbon threshold
-* tenant policy
-* data residency requirement
+Examples include regulatory classification, risk exposure, financial threshold, human approval requirement, ESG or carbon threshold, tenant policy, and data residency requirement.
 
 PolicyCore validation must be logged and linked to the decision trace.
 
 ---
 
-## 21. Feedback Data Governance
+## 20. Feedback Data Governance
 
 Feedback data is part of the learning loop.
 
-Feedback may include:
+Feedback may include actual outcome, expected vs actual deviation, operational impact, financial impact, regulatory result, execution delay, carbon impact, and human approval outcome.
 
-* actual outcome
-* expected vs actual deviation
-* operational impact
-* financial impact
-* regulatory result
-* execution delay
-* carbon impact
-* human approval outcome
-
-Feedback must be:
-
-* tenant-scoped
-* classified
-* auditable
-* governed before reuse
-* anonymized before contributing to universal intelligence
+Feedback must be tenant-scoped, classified, auditable, governed before reuse, and anonymized before contributing to universal intelligence.
 
 Core rule:
 
@@ -501,41 +285,19 @@ Core rule:
 
 ---
 
-## 22. Anonymization & Reuse
+## 21. Anonymization & Reuse
 
-Tenant data may contribute to reusable intelligence only if:
+Tenant data may contribute to reusable intelligence only if it is anonymized, aggregated, stripped of identifiable business structures, unable to reveal tenant behavior, approved through governance, and compliant with tenant agreements and applicable law.
 
-* it is anonymized
-* it is aggregated
-* it removes identifiable business structures
-* it cannot reveal tenant behavior
-* it passes governance approval
-* it complies with tenant agreement and applicable law
-
-Reusable intelligence must not expose:
-
-* tenant identity
-* internal decision logic
-* proprietary workflows
-* sensitive dependencies
-* financial exposure
-* regulated data
+Reusable intelligence must not expose tenant identity, internal decision logic, proprietary workflows, sensitive dependencies, financial exposure, or regulated data.
 
 ---
 
-## 23. Data Retention
+## 22. Data Retention
 
 Data retention must depend on classification, tenant agreement, legal requirements, and audit obligations.
 
-Retention categories may include:
-
-* operational data
-* decision traces
-* audit evidence
-* execution logs
-* feedback records
-* security logs
-* regulatory evidence
+Retention categories may include operational data, decision traces, audit evidence, execution logs, feedback records, security logs, and regulatory evidence.
 
 Deletion must not silently break audit trails.
 
@@ -545,31 +307,9 @@ Core rule:
 
 ---
 
-## 24. Deletion & Soft Delete
+## 23. Data Residency
 
-Critical decision data should not be physically deleted without governance review.
-
-Where deletion is required, the system should preserve:
-
-* deletion metadata
-* legal basis
-* affected decision traces
-* audit record
-* tenant request reference where applicable
-
-Soft delete should be preferred for system-critical records.
-
----
-
-## 25. Data Residency
-
-QORWAY supports data residency requirements through:
-
-* tenant policy
-* PolicyCore constraints
-* GreenCore execution routing
-* infrastructure configuration
-* jurisdiction-aware processing
+QORWAY supports data residency requirements through tenant policy, PolicyCore constraints, GreenCore execution routing, infrastructure configuration, and jurisdiction-aware processing.
 
 Sensitive or regulated data must remain inside approved regions.
 
@@ -579,110 +319,41 @@ Core rule:
 
 ---
 
-## 26. Data Quality
+## 24. Data Quality
 
 Data quality directly affects decision quality.
 
-QORWAY should track:
-
-* completeness
-* freshness
-* consistency
-* source reliability
-* confidence level
-* missing values
-* conflicting signals
-* outdated graph relationships
+QORWAY should track completeness, freshness, consistency, source reliability, confidence level, missing values, conflicting signals, and outdated graph relationships.
 
 Atlas should not produce high-confidence decisions from low-quality data without appropriate warnings or PolicyCore controls.
 
 ---
 
-## 27. Data Quality Signals
-
-Data quality signals may include:
-
-* missing critical indicator
-* stale data
-* inconsistent source
-* unreliable input
-* conflicting event
-* low evidence confidence
-* unsupported causal chain
-
-These signals may trigger:
-
-* human review
-* lower confidence score
-* PolicyCore modification
-* diagnostic signal
-* feedback rule activation
-
----
-
-## 28. Data Mutation Governance
+## 25. Data Mutation Governance
 
 Changes to critical data must be governed.
 
-Critical mutations include:
+Critical mutations include graph schema changes, causal rule changes, tenant graph mutations, Domain Pack updates, PolicyCore constraint changes, deletion of audit evidence, and feedback rule updates.
 
-* graph schema changes
-* causal rule changes
-* tenant graph mutations
-* Domain Pack updates
-* PolicyCore constraint changes
-* deletion of audit evidence
-* feedback rule updates
-
-Mutations should be:
-
-* versioned
-* logged
-* attributable
-* reversible where possible
-* reviewed where required
+Mutations should be versioned, logged, attributable, reversible where possible, and reviewed where required.
 
 ---
 
-## 29. Audit Evidence
+## 26. Audit Evidence
 
 Data governance must support audit evidence.
 
-Evidence may include:
-
-* source data reference
-* ingestion timestamp
-* transformation log
-* graph node update
-* causal chain reference
-* PolicyCore result
-* PulseFlow event
-* GreenCore routing trace
-* outcome feedback
-* human approval event
+Evidence may include source data reference, ingestion timestamp, transformation log, graph node update, causal chain reference, PolicyCore result, PulseFlow event, GreenCore routing trace, outcome feedback, and human approval event.
 
 Audit evidence must be reconstructable.
 
 ---
 
-## 30. Public vs Private Repository Boundary
+## 27. Public vs Private Repository Boundary
 
-Public repositories may include:
+Public repositories may include high-level data governance principles, public-safe data classification models, architectural diagrams, and non-sensitive examples.
 
-* high-level data governance principles
-* public-safe data classification model
-* architectural diagrams
-* non-sensitive examples
-
-Private repositories must contain:
-
-* production schemas
-* tenant isolation implementation
-* full graph models
-* actual causal rules
-* prompts
-* internal data mappings
-* security-sensitive controls
+Private repositories must contain production schemas, tenant isolation implementation, full graph models, actual causal rules, prompts, internal data mappings, and security-sensitive controls.
 
 Core rule:
 
@@ -690,69 +361,43 @@ Core rule:
 
 ---
 
-## 31. Data Governance Failure Conditions
+## 28. Data Governance Failure Conditions
 
 A data state is governance-invalid if:
 
-* tenant scope is missing
-* data classification is missing
-* sensitive data is exposed unnecessarily
-* private data appears in universal structures
-* data lineage cannot be reconstructed
-* unauthorized agents access the data
-* feedback leaks across tenants
-* deletion breaks audit traceability
-* regulated data leaves approved boundaries
-* graph traversal enables cross-tenant inference
-* decisions are made from unsupported or stale data without warning
+- tenant scope is missing
+- data classification is missing
+- sensitive data is exposed unnecessarily
+- private data appears in universal structures
+- data lineage cannot be reconstructed
+- unauthorized agents access the data
+- feedback leaks across tenants
+- deletion breaks audit traceability
+- regulated data leaves approved boundaries
+- graph traversal enables cross-tenant inference
+- decisions are made from unsupported or stale data without warning
 
 ---
 
-## 32. What QORWAY Data Governance Is Not
+## 29. What QORWAY Data Governance Is Not
 
-QORWAY Data Governance is not:
-
-* a storage policy only
-* a database permissions model only
-* a compliance checklist
-* a reporting process
-* a static documentation layer
-* an after-the-fact audit exercise
+QORWAY Data Governance is not a storage policy only, a database permissions model only, a compliance checklist, a reporting process, a static documentation layer, or an after-the-fact audit exercise.
 
 It is a runtime governance system for data that becomes decision intelligence.
 
 ---
 
-## 33. Strategic Importance
+## 30. Strategic Importance
 
 Data governance is central to QORWAY’s credibility.
 
-QORWAY is designed for environments where data becomes decisions that may affect:
-
-* capital
-* regulation
-* ESG outcomes
-* operational resilience
-* public policy
-* enterprise risk
-* human oversight
-* system execution
+QORWAY is designed for environments where data becomes decisions that may affect capital, regulation, ESG outcomes, operational resilience, public policy, enterprise risk, human oversight, and system execution.
 
 Therefore, data must remain governed from ingestion to feedback.
 
-This is essential for:
-
-* regulated enterprises
-* public-sector adoption
-* EU AI Act alignment
-* GDPR alignment
-* sovereign deployment
-* tenant trust
-* enterprise auditability
-
 ---
 
-## 34. Final Statement
+## 31. Final Statement
 
 QORWAY data governance protects the full transformation of data into decision intelligence:
 
@@ -760,15 +405,8 @@ QORWAY data governance protects the full transformation of data into decision in
 data → graph → reasoning → validation → execution → feedback
 ```
 
-Final system statement:
-
 > QORWAY governs data because data becomes decisions, and decisions become reality.
 
-```
 ---
-*© QORWAY Technology — www.qorway.com*  
-```
----
-© Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey.
-All rights reserved.
-```
+
+© 2026 Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey. All rights reserved.
