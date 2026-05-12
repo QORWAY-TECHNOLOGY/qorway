@@ -1,4 +1,3 @@
-````md
 # QORWAY Architecture
 
 **Sovereign Decision Intelligence Infrastructure for Europe**
@@ -38,7 +37,7 @@ QORWAY operates as a 5-layer decision intelligence infrastructure:
 3. PolicyCore   → Constraint Validation Layer
 4. PulseFlow    → Execution Orchestration Layer
 5. GreenCore    → Execution Optimization Layer
-````
+```
 
 Each layer has a distinct responsibility.
 
@@ -427,11 +426,6 @@ Atlas → Domain Packs → PolicyCore → PulseFlow → GreenCore
 
 Together, they form the foundation for sovereign decision intelligence in Europe.
 
-```
 ---
-*© QORWAY Technology — www.qorway.com*  
-```
----
-© Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey.
-All rights reserved.
-```
+
+© 2026 Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey. All rights reserved.
