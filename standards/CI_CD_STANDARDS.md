@@ -1,4 +1,4 @@
-````md
+
 # CI/CD Standards
 
 **QORWAY Decision Intelligence Infrastructure**
