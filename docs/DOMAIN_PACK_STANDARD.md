@@ -1136,9 +1136,11 @@ Final system statement:
 > A Domain Pack is how QORWAY converts domain reality into causal, constrained, executable intelligence.
 
 ```
+---
+*© QORWAY Technology — www.qorway.com*  
 ```
 ---
-*© QORWAY Technology SAS — www.qorway.com*  
-*Proprietary. All rights reserved.*
+© Nicole Valey. QORWAY Technology is a proprietary project created and owned by Nicole Valey.
+All rights reserved.
 ```
 ```
