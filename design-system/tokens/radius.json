@@ -1,0 +1,14 @@
+{
+  "radius": {
+    "xs": "2px",
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px",
+    "xl": "20px",
+    "full": "999px"
+  },
+  "shadow": {
+    "sovereign": "0 24px 80px rgba(0, 0, 0, 0.45)",
+    "insetTrace": "inset 0 0 0 1px rgba(243, 240, 230, 0.12)"
+  }
+}
