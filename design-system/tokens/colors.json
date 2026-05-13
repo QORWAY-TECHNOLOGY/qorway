@@ -1,0 +1,50 @@
+{
+  "color": {
+    "base": {
+      "carbonBlack": "#0E0E0D",
+      "voidBlack": "#050505",
+      "graphite": "#151513",
+      "systemIvory": "#F3F0E6",
+      "warmSand": "#E6DCC8",
+      "mutedIvory": "#CFC8B8"
+    },
+    "brand": {
+      "sovereignOlive": "#2E3428",
+      "deepOlive": "#1F241B",
+      "copperEarth": "#9A4F36",
+      "copperDark": "#6F3525",
+      "copperSoft": "#C5826A"
+    },
+    "semantic": {
+      "success": "#2F7D57",
+      "warning": "#C8913A",
+      "danger": "#A73535",
+      "info": "#49687A",
+      "neutral": "#8D887C"
+    },
+    "surface": {
+      "darkPrimary": "#0E0E0D",
+      "darkSecondary": "#151513",
+      "darkTertiary": "#1E1E1A",
+      "lightPrimary": "#F3F0E6",
+      "lightSecondary": "#E9E2D2",
+      "lightTertiary": "#DCD2BF"
+    },
+    "border": {
+      "darkSubtle": "rgba(243, 240, 230, 0.12)",
+      "darkStrong": "rgba(243, 240, 230, 0.28)",
+      "lightSubtle": "rgba(14, 14, 13, 0.12)",
+      "lightStrong": "rgba(14, 14, 13, 0.28)",
+      "policy": "rgba(154, 79, 54, 0.65)"
+    },
+    "text": {
+      "darkPrimary": "#F3F0E6",
+      "darkSecondary": "#B9B2A3",
+      "darkMuted": "#827C70",
+      "lightPrimary": "#0E0E0D",
+      "lightSecondary": "#3A382F",
+      "lightMuted": "#777165",
+      "policy": "#C5826A"
+    }
+  }
+}
