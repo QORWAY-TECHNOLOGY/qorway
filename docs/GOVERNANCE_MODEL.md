@@ -1,10 +1,8 @@
-````md
 # Governance Model
 
 **QORWAY Decision Intelligence Infrastructure**
 
-> Governance is not a layer added after intelligence.  
-> Governance is embedded into how QORWAY reasons, validates, executes, optimizes, and learns.
+> Governance is not added after intelligence. Governance is embedded into how QORWAY reasons, validates, orchestrates, optimizes, executes, and learns.
 
 ---
 
@@ -21,225 +19,59 @@ It ensures that every decision is:
 - executable
 - auditable
 - feedback-linked
-- aligned with regulatory, financial, ESG, ethical, and system constraints
+- aligned with regulatory, financial, ESG, operational, sovereignty, and system constraints
 
 QORWAY does not treat governance as documentation.
 
-Governance is built into the runtime.
+Governance is part of the architecture.
 
 ---
 
-## 2. Role in QORWAY OS
+## 2. Governance Principles
 
-The Governance Model exists to prevent uncontrolled intelligence.
+QORWAY governance follows these public principles:
 
-Enterprise AI systems fail when:
+1. Traceability by default
+2. Constraint-first intelligence
+3. Context-aware governance
+4. Human oversight where required
+5. Tenant sovereignty
+6. Auditability as runtime evidence
+7. Execution accountability
+8. No unbounded intelligence
+9. Sovereign resilience by design
 
-- decisions are not traceable
-- compliance is applied after execution
-- constraints are external to the system
-- human oversight is inconsistent
-- audit trails are incomplete
-- data boundaries are unclear
-- execution paths are not governed
+---
 
-QORWAY solves this by embedding governance across the full stack:
+## 3. Governance Architecture
+
+Governance is distributed across the full QORWAY stack:
 
 ```text
-Atlas → Domain Packs → PolicyCore → PulseFlow → GreenCore → Feedback
-````
+Knowledge Graph → Atlas → Domain Packs → PolicyCore → PulseFlow → GreenCore → Execution → Feedback
+```
 
 Governance is applied before, during, and after execution.
 
 ---
 
-## 3. Governance Principles
+## 4. Layer Responsibilities
 
-QORWAY governance follows eight core principles.
-
----
-
-### 3.1 Traceability by Default
-
-Every decision must include:
-
-* decision ID
-* tenant ID
-* causal chain
-* Domain Pack context
-* PolicyCore validation status
-* PulseFlow execution path
-* GreenCore routing decision
-* audit metadata
-* feedback reference
-
-A decision without traceability is invalid.
+| Layer | Governance responsibility |
+|---|---|
+| Knowledge Graph | Preserves decision memory, causal lineage, dependencies, and feedback links. |
+| Atlas | Produces explainable causal decision candidates. |
+| Domain Packs | Provide domain-specific context, risks, evidence expectations, and governance boundaries. |
+| PolicyCore | Validates proposed decisions under applicable constraints. |
+| PulseFlow | Ensures governed orchestration and execution traceability. |
+| GreenCore | Optimizes approved execution paths without violating constraints. |
+| Feedback Loop | Captures outcomes and strengthens future decision quality. |
 
 ---
 
-### 3.2 Constraint-First Intelligence
+## 5. PolicyCore as Governance Authority
 
-No decision can move to execution unless it passes PolicyCore validation.
-
-PolicyCore evaluates:
-
-* regulatory constraints
-* ESG constraints
-* financial constraints
-* ethical constraints
-* operational constraints
-* system capacity constraints
-* tenant-specific policies
-
-Core rule:
-
-> No decision is valid unless it passes constraint evaluation.
-
----
-
-### 3.3 Context-Aware Governance
-
-Domain Packs provide the domain context required for governance.
-
-A decision cannot be governed correctly unless the system understands:
-
-* the domain structure
-* applicable rules
-* allowed actions
-* risks
-* gates
-* expected outcomes
-* required evidence
-
-Domain Packs make governance domain-specific.
-
----
-
-### 3.4 Human Oversight Where Required
-
-QORWAY supports human-in-the-loop governance for sensitive or high-impact decisions.
-
-Human oversight may be required when:
-
-* the decision affects financial exposure
-* the decision impacts regulated domains
-* the decision triggers high-risk execution
-* PolicyCore requires approval
-* tenant policy mandates human review
-* execution may materially affect people, capital, compliance, or public interest
-
-Human oversight must be logged as part of the decision trace.
-
----
-
-### 3.5 Tenant Sovereignty
-
-Each tenant operates inside an isolated decision environment.
-
-Tenant sovereignty includes:
-
-* isolated data
-* isolated Knowledge Graph
-* isolated constraints
-* isolated Domain Pack instantiation
-* isolated execution policies
-* isolated audit logs
-* isolated feedback loop
-
-No governance decision may cross tenant boundaries.
-
----
-
-### 3.6 Auditability as Runtime Evidence
-
-QORWAY produces audit artifacts automatically.
-
-Auditability is not manually reconstructed later.
-
-Every decision, event, constraint validation, execution, routing decision, and feedback signal must be recorded as evidence.
-
----
-
-### 3.7 Execution Accountability
-
-A decision is incomplete until its execution is logged.
-
-PulseFlow ensures that execution is:
-
-* event-based
-* authorized
-* tenant-scoped
-* replayable where required
-* linked to a validated decision
-
-Execution without an audit trail is invalid.
-
----
-
-### 3.8 No Unbounded Intelligence
-
-QORWAY intelligence is bounded by:
-
-* causal structure
-* Domain Pack logic
-* PolicyCore constraints
-* tenant policies
-* security boundaries
-* human oversight rules
-* execution authorization
-* GreenCore routing boundaries
-
-QORWAY must never produce or execute unconstrained decisions.
-
----
-
-## 4. Governance Architecture
-
-The governance architecture is distributed across the full QORWAY stack.
-
-```text
-DATA
-  ↓
-KNOWLEDGE GRAPH
-  ↓
-ATLAS
-  ↓
-DOMAIN PACKS
-  ↓
-POLICYCORE
-  ↓
-DECISION
-  ↓
-PULSEFLOW
-  ↓
-GREENCORE
-  ↓
-EXECUTION
-  ↓
-FEEDBACK LOOP
-```
-
-Governance is enforced at each stage.
-
----
-
-## 5. Layer Responsibilities
-
-| Layer           | Governance Responsibility                                                       |
-| --------------- | ------------------------------------------------------------------------------- |
-| Knowledge Graph | Stores decision memory, causal lineage, evidence nodes, and feedback links      |
-| Atlas           | Produces explainable causal decisions                                           |
-| Domain Packs    | Provide domain-specific rules, gates, risks, actions, and evidence requirements |
-| PolicyCore      | Validates decisions under constraints                                           |
-| PulseFlow       | Ensures governed execution and event traceability                               |
-| GreenCore       | Optimizes execution without violating constraints                               |
-| Feedback Loop   | Captures outcomes and updates governance evidence                               |
-
----
-
-## 6. PolicyCore as Governance Authority
-
-PolicyCore is the primary governance enforcement layer.
+PolicyCore is the primary constraint validation layer.
 
 It determines whether a decision is:
 
@@ -249,437 +81,170 @@ MODIFIED
 REJECTED
 ```
 
-PolicyCore evaluates decisions against:
+PolicyCore evaluates decisions against public-safe categories such as:
 
-* law
-* regulation
-* tenant policy
-* ESG threshold
-* financial exposure limits
-* operational capacity
-* system risk
-* human oversight requirements
-
-No execution can bypass PolicyCore.
+- regulatory constraints
+- tenant policy
+- ESG and sustainability constraints
+- financial exposure limits
+- operational risk
+- human oversight requirements
+- sovereignty and data boundary requirements
 
 Core rule:
 
-> PolicyCore defines what is allowed. Everything else must operate within that boundary.
+> PolicyCore defines what is allowed. Every other layer must operate within that boundary.
 
 ---
 
-## 7. Domain Pack Governance
+## 6. Human Oversight
 
-Domain Packs make governance domain-specific.
+QORWAY supports human-in-the-loop governance for sensitive or high-impact decisions.
 
-A Domain Pack defines:
+Human oversight may be required when decisions affect:
 
-* domain ontology
-* causal rules
-* allowed actions
-* risks
-* gates
-* outcomes
-* events
-* evidence requirements
-* PolicyCore constraints
-* GreenCore execution preferences
-* feedback rules
-* systemic impact model
+- financial exposure
+- regulated domains
+- workforce and social impact
+- operational continuity
+- compliance posture
+- public interest
+- sovereign resilience
 
-Domain Packs do not replace PolicyCore.
+Human oversight must be traceable.
 
-They provide the domain structure that PolicyCore evaluates.
+---
+
+## 7. Tenant Sovereignty
+
+Each tenant operates inside an isolated decision environment.
+
+Tenant sovereignty includes:
+
+- isolated data
+- isolated Knowledge Graph context
+- isolated constraints
+- isolated Domain Pack instantiation
+- isolated execution policies
+- isolated audit logs
+- isolated feedback loop
 
 Core rule:
 
-> Domain Packs structure reality. PolicyCore validates reality.
+> One tenant's operating reality must never become another tenant's intelligence.
 
 ---
 
-## 8. Governance Decision Flow
+## 8. Auditability
 
-```text
-Atlas generates causal decision
-  ↓
-Domain Pack provides domain context
-  ↓
-PolicyCore evaluates constraints
-  ↓
-Decision is approved / modified / rejected
-  ↓
-PulseFlow executes only approved path
-  ↓
-GreenCore optimizes execution path
-  ↓
-Execution is logged
-  ↓
-Feedback is captured
-  ↓
-Knowledge Graph is updated
-```
+QORWAY treats auditability as part of the decision lifecycle.
 
----
-
-## 9. Decision Governance Object
-
-Every governed decision must be represented as a structured object.
-
-Example:
-
-```json
-{
-  "decision_id": "dec_001",
-  "tenant_id": "tenant_001",
-  "domain_pack": "finance_pack",
-  "domain_pack_version": "1.0.0",
-  "causal_chain_id": "chain_042",
-  "policy_status": "approved",
-  "policycore_result": {
-    "decision": "APPROVED",
-    "constraints_checked": [
-      "financial_exposure_limit",
-      "human_approval_required",
-      "gdpr_data_scope"
-    ],
-    "required_human_approval": true
-  },
-  "execution_status": "pending",
-  "greencore_status": "routing_required",
-  "audit_status": "traceable"
-}
-```
-
----
-
-## 10. Constraint Types
-
-PolicyCore supports several constraint types.
-
-| Constraint Type         | Behavior                            |
-| ----------------------- | ----------------------------------- |
-| Hard Block              | Execution forbidden                 |
-| Soft Limit              | Warning + degraded execution        |
-| Modification Rule       | Decision must be adjusted           |
-| Human Approval          | Execution requires human validation |
-| Simulation Constraint   | Affects scenario outcomes           |
-| Optimization Constraint | Influences GreenCore routing        |
-
----
-
-## 11. Human-in-the-Loop Governance
-
-Human approval is required when:
-
-* PolicyCore marks the decision as high risk
-* the tenant defines mandatory approval
-* regulatory classification requires oversight
-* execution may materially affect financial, legal, ESG, human, or operational exposure
-* simulation drift exceeds the threshold defined in the Domain Pack
-* the decision impacts public interest or institutional accountability
-
-A human approval event must include:
-
-* approver identity
-* role
-* timestamp
-* approval decision
-* reason
-* linked decision ID
-* linked PolicyCore result
-
-Example:
-
-```json
-{
-  "event_type": "decision.human_approval.granted",
-  "decision_id": "dec_001",
-  "approved_by": "user_001",
-  "role": "CFO",
-  "timestamp": "2026-05-05T10:00:00Z",
-  "approval_reason": "Financial exposure within approved threshold",
-  "policycore_result_id": "pol_001"
-}
-```
-
----
-
-## 12. Audit Trail Model
-
-QORWAY generates audit trails across the full lifecycle.
-
-Audit trail components include:
-
-* data source reference
-* Knowledge Graph node references
-* causal chain
-* Domain Pack name and version
-* PolicyCore validation result
-* human approval events
-* PulseFlow execution events
-* GreenCore routing decision
-* outcome feedback
-* timestamped logs
-* tenant boundary metadata
-
-A complete audit trail must answer:
+A complete audit trail should be able to answer:
 
 ```text
 What decision was made?
 Why was it made?
-Which domain rules applied?
+Which domain context applied?
 What constraints were checked?
-Who approved it?
-How was it executed?
-Where was it executed?
+Was human oversight required?
+How was execution orchestrated?
+How was execution optimized?
 What happened afterward?
 What did the system learn?
 ```
 
 ---
 
-## 13. EU AI Act Alignment
+## 9. Sovereign Resilience Governance
 
-QORWAY is designed to support governance requirements for high-risk decision environments.
+Sovereign resilience extends governance beyond standard compliance.
 
-The Governance Model supports:
+It ensures that decisions account for:
 
-* explainability
-* human oversight
-* risk management
-* logging
-* transparency
-* technical documentation
-* data governance
-* accountability
+- provider dependency
+- data residency
+- supplier concentration
+- operational autonomy
+- crash readiness
+- regulatory monitoring
+- execution locality
+
+This does not mean all details are public.
+
+The public repository explains the doctrine.
+
+Private repositories contain implementation depth.
+
+---
+
+## 10. EU AI Act and GDPR Alignment
+
+QORWAY is designed to support accountable decision environments through:
+
+- explainability
+- risk management
+- human oversight
+- logging
+- data governance
+- access control
+- privacy-aware execution
+- tenant isolation
+- audit-ready documentation
 
 QORWAY does not rely on post-hoc explanation.
 
-Explanation is generated as part of the decision lifecycle.
+Explanation and traceability are built into the decision lifecycle.
 
 ---
 
-## 14. GDPR Alignment
+## 11. Governance Failure Conditions
 
-QORWAY supports GDPR-aligned governance through:
+A decision or execution path is governance-invalid if it:
 
-* data minimization
-* tenant isolation
-* access control
-* encryption
-* audit logs
-* restricted data processing
-* privacy-aware routing
-* data residency controls
-
-Tenant data must never be exposed to another tenant.
-
-Sensitive data must never leave approved execution boundaries without governance approval.
+- lacks tenant scope
+- lacks causal lineage
+- bypasses PolicyCore
+- lacks required human oversight
+- violates tenant policy
+- produces no audit trail
+- executes outside allowed boundaries
+- bypasses PulseFlow
+- cannot be linked to feedback
+- cannot be explained
 
 ---
 
-## 15. Multi-Tenant Governance
-
-Each tenant has its own governance boundary.
-
-Tenant-specific governance includes:
-
-* PolicyCore rules
-* Domain Pack configuration
-* Private Knowledge Graph
-* user roles
-* approval rules
-* audit logs
-* GreenCore execution policies
-* feedback rules
-* data classification rules
-
-Core rule:
-
-> Governance is tenant-scoped by default.
-
----
-
-## 16. Role-Based Governance
-
-QORWAY may support multiple governance roles.
-
-Example roles:
-
-| Role                   | Responsibility                         |
-| ---------------------- | -------------------------------------- |
-| Executive              | Approves strategic decisions           |
-| CFO                    | Validates capital allocation decisions |
-| Compliance Officer     | Reviews regulatory constraints         |
-| Risk Officer           | Reviews systemic risk                  |
-| Sustainability Officer | Reviews ESG / carbon exposure          |
-| Domain Operator        | Executes domain-specific workflows     |
-| System Admin           | Manages access and infrastructure      |
-| AI Agent               | Performs bounded execution tasks       |
-
-Each role must operate within explicit permissions.
-
----
-
-## 17. GreenCore Governance
-
-GreenCore participates in governance by ensuring that execution is aligned with:
-
-* cost policy
-* carbon policy
-* execution zone policy
-* sovereignty policy
-* tenant energy preferences
-* domain-specific execution policies
-
-GreenCore cannot approve decisions rejected by PolicyCore.
-
-GreenCore can only optimize execution paths that are already valid.
-
-Core rule:
-
-> GreenCore governs how approved execution happens. It does not decide what is allowed.
-
----
-
-## 18. PulseFlow Governance
-
-PulseFlow provides execution governance by ensuring that every action is:
-
-* event-based
-* tenant-scoped
-* authorized
-* traceable
-* replayable where required
-* linked to a validated decision
-* linked to an execution outcome
-
-PulseFlow must never execute a rejected or unvalidated decision.
-
-Core rule:
-
-> No PulseFlow execution can occur without PolicyCore validation.
-
----
-
-## 19. Feedback Governance
-
-Feedback is part of governance.
-
-Every execution must produce a feedback signal where possible.
-
-Feedback may include:
-
-* expected vs actual outcome
-* financial deviation
-* operational deviation
-* compliance deviation
-* execution delay
-* carbon / compute impact
-* human approval outcome
-* simulation drift
-
-Domain Packs may define feedback thresholds.
-
-Example:
-
-```json
-{
-  "simulation_drift_threshold": 0.15,
-  "drift_behavior": "trigger_human_review",
-  "event": "diagnostic.signal.generated"
-}
-```
-
-If simulation and execution diverge beyond the threshold, QORWAY must generate a diagnostic signal.
-
----
-
-## 20. Governance Evidence
-
-QORWAY produces governance evidence as runtime artifacts.
-
-Evidence may include:
-
-* decision trace
-* causal evidence log
-* constraint matrix
-* execution log
-* GreenCore routing trace
-* carbon trace
-* human approval log
-* feedback report
-* diagnostic signal
-
-These artifacts support internal audit, regulatory review, and enterprise governance.
-
----
-
-## 21. Governance Failure Conditions
-
-A decision or execution path is governance-invalid if:
-
-* it lacks a tenant ID
-* it has no causal chain
-* it has no Domain Pack context where required
-* it bypasses PolicyCore
-* it lacks required human approval
-* it violates tenant policy
-* it produces no audit trail
-* it executes outside allowed boundaries
-* it bypasses PulseFlow
-* it bypasses GreenCore routing where required
-* it cannot be linked to feedback
-* it cannot be explained
-
----
-
-## 22. What QORWAY Governance Is Not
+## 12. What QORWAY Governance Is Not
 
 QORWAY Governance is not:
 
-* a compliance checklist
-* a static policy document
-* a reporting dashboard
-* legal advice
-* post-hoc audit reconstruction
-* ESG reporting alone
+- a compliance checklist
+- a static policy document
+- a reporting dashboard
+- legal advice
+- post-hoc audit reconstruction
+- ESG reporting alone
 
-It is a live governance infrastructure embedded into decision execution.
-
----
-
-## 23. Strategic Importance
-
-Governance is one of QORWAY’s core differentiators.
-
-Traditional systems apply governance after decisions have already been made.
-
-QORWAY embeds governance inside the decision runtime.
-
-This allows QORWAY to support:
-
-* regulated enterprise environments
-* public-sector decision systems
-* ESG / CSRD traceability
-* financial risk governance
-* AI Act-aligned decision accountability
-* sovereign multi-tenant execution
-
-Governance is not a compliance feature.
-
-It is the system boundary that makes decision intelligence deployable at scale.
+It is a live governance architecture embedded into decision execution.
 
 ---
 
-## 24. Final Statement
+## 13. Public Boundary
 
-The QORWAY Governance Model ensures that intelligence is not only powerful, but controllable, explainable, auditable, and safe to execute.
+This public document describes governance principles and responsibilities.
+
+It does not expose private validation rules, internal gate registries, production contracts, tenant policies, scoring logic, private prompts, or implementation internals.
+
+See [`PUBLIC_PRIVATE_BOUNDARY.md`](PUBLIC_PRIVATE_BOUNDARY.md).
+
+---
+
+## 14. Final Statement
+
+The QORWAY Governance Model ensures that intelligence is not only powerful, but controllable, explainable, auditable, resilient, and safe to execute.
 
 > QORWAY governs decisions before they become reality.
 
-```
 ---
-*© QORWAY Technology SAS — www.qorway.com*  
-*Proprietary. All rights reserved.*
-```
+
+© QORWAY Technology — All rights reserved.
